@@ -12,7 +12,9 @@ int main() {
   }else{
     printf (" n la so le");
   }
-
+  if (n/2==0){
+    printf( " n bang 0 ");
+  }
   getchar ();
   return 1;
 }
